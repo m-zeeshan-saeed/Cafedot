@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: rgb(119, 150, 168);
+  text-align: center;
+  padding: 12px 22px;
+}
+p {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 195px;
+  padding: 15px 18px;
+}
+#navigation {
+  display: flex;
+  align-items: center;
+}
+nav .sitenav {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #252b2d;
+  text-transform: uppercase;
+}
