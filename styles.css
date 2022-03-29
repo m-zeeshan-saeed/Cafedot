@@ -34,3 +34,16 @@ nav .sitenav {
   color: #252b2d;
   text-transform: uppercase;
 }
+span {
+  display: flex;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: small;
+  margin-left: 7em;
+  justify-content: flex-start;
+  align-items: center;
+}
+i {
+  font-size: 24px;
+  padding: 12px;
+}
