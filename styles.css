@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Utopia-Regular";
+  src: url(font/Utopia-Regular.otf) format(otf);
+}
+@font-face {
+  font-family: "FontsFree-net-GothamNarrowBook";
+  src: url(font/FontsFree-Net-GothamNarrowBook.ttf) format(truetype);
+}
 body {
   background-color: white;
   margin: 0;
@@ -46,4 +54,39 @@ span {
 i {
   font-size: 24px;
   padding: 12px;
+}
+div.coffee {
+  background-color: #5c98be;
+  padding: 48px 0px 220px;
+}
+h2 {
+  color: white;
+  font: 400 36px/1.33 "Utopia-Regular", sans-serif;
+  text-transform: none;
+  margin: 0%;
+  letter-spacing: normal;
+  display: inline;
+}
+div#coffee-align {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+p.coffee-discription {
+  color: #252b2d;
+  font: 300 18px/24px "FontsFree-net-GothamNarrowBook", sans-serif;
+  display: inline;
+}
+div#main-align {
+  display: flex;
+  background-color: #5c98be;
+}
+div#coffee-texture {
+  background-image: url(img/hero-coffee-bg.webp);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
