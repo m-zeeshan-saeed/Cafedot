@@ -28,12 +28,61 @@
 header .head:hover {
   background-color: #adb9c1;
 }
-#navigation-bar {
+#navigation {
   display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .navlogo {
   width: 12rem;
   cursor: pointer;
   padding-top: 15px;
   padding-left: 25px;
+}
+.site-nav {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.site-nav__link {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-family: "FontsFree-net-GothamNarrowBook";
+  font-size: 12px;
+  font-weight: 500;
+}
+.site-nav__link:hover {
+  color: rgb(222, 187, 99);
+  transition: 0.4s;
+}
+.site-header {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.site_account {
+  text-decoration: none;
+  color: black;
+  font-family: "FontsFree-net-GothamNarrowBook";
+  font-size: 12px;
+  font-weight: 500;
+}
+.site_account:hover {
+  color: rgb(214, 204, 204);
+  transition: 0.4s;
+}
+.logo {
+  color: #faf4e9;
+  font: 300 12px GothamNarrow-Book, sans-serif;
+  background: #debb63;
+  border-radius: 50%;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.logo-set {
+  padding-top: 15px;
+  padding-left: 70px;
 }
