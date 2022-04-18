@@ -31,13 +31,12 @@ header .head:hover {
 #navigation {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
 }
 .navlogo {
   width: 12rem;
   cursor: pointer;
   padding-top: 15px;
-  padding-left: 25px;
+  padding-left: 35px;
 }
 .site-nav {
   list-style: none;
@@ -85,4 +84,57 @@ header .head:hover {
 .logo-set {
   padding-top: 15px;
   padding-left: 70px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+}
+.coffee-container {
+  height: fit-content;
+  background-image: url(/img/hero-coffee-bg.webp);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding: 48px 0 180px;
+  background-color: #5c98be;
+  background-size: 100% 345px;
+  text-align: left;
+}
+.hero-coffee-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hero-coffee-container__text {
+  max-width: 310px;
+  text-align: left;
+}
+
+.hero-coffee-container__text h1 {
+  color: white;
+  font-size: 46px;
+  font-weight: 400;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.hero-coffee-container__text p {
+  color: #252b2d;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 14px 0 85px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hero-coffee-container__text a {
+  border: 3px solid #debb63;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #debb63;
+  padding: 7px 34px;
+  font-weight: bold;
+}
+.hero-coffee-container__text a:hover {
+  color: white;
+  background-color: #debb63;
+  transition: 0.4s;
+  cursor: pointer;
 }
