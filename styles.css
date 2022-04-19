@@ -3,7 +3,7 @@
   src: url(font/Utopia-Regular.otf) format(otf);
 }
 @font-face {
-  font-family: "FontsFree-net-GothamNarrowBook";
+  font-family: "GothamNarrow-Book";
   src: url(font/FontsFree-Net-GothamNarrowBook.ttf) format(truetype);
 }
 * {
@@ -74,7 +74,7 @@ header .head:hover {
 }
 .logo {
   color: #faf4e9;
-  font: 300 12px GothamNarrow-Book, sans-serif;
+  font: 300 12px "GothamNarrow-Book", sans-serif;
   background: #debb63;
   border-radius: 50%;
   padding: 5px 10px;
@@ -112,16 +112,16 @@ header .head:hover {
 
 .hero-coffee-container__text h1 {
   color: white;
-  font-size: 46px;
+  font-size: 50px;
   font-weight: 400;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "My Soul", cursive;
 }
 .hero-coffee-container__text p {
   color: #252b2d;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ms Madi", cursive;
   margin: 14px 0 85px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 700;
 }
 .hero-coffee-container__text a {
   border: 3px solid #debb63;
@@ -137,4 +137,257 @@ header .head:hover {
   background-color: #debb63;
   transition: 0.4s;
   cursor: pointer;
+}
+.cart-container {
+  background-color: #faf4e9;
+  text-align: center;
+  padding: 59px 0 63px;
+  background-size: 100% 345px;
+}
+.feature-coffee {
+  color: #252b2d;
+  font: 18px/24px Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.wrapper {
+  max-width: 1170px;
+  width: 100%;
+  overflow: hidden;
+  padding: 0 22px;
+  margin: 0 auto;
+}
+.container-product {
+  display: flex;
+  margin-bottom: 37px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature-coffee-container-1 {
+  flex: 1 0 300px;
+  max-width: 300px;
+  margin: 0 12px 24px;
+  width: 100%;
+  text-align: left;
+}
+.feature-coffee-entry-1 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.feature-coffee-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+.feature-coffee-img img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+.feature-coffee-text {
+  background: #5e9bc2;
+  padding: 22px 20px;
+  flex-grow: 1;
+  position: relative;
+}
+.feature-coffee-title {
+  font-weight: 400;
+  font-size: 35px;
+  font-family: "My Soul", cursive;
+  letter-spacing: normal;
+  margin: 0;
+  color: #faf4e9;
+  text-transform: none;
+}
+.feature-coffee-entry-content {
+  font: 400 35px/18px "Ms Madi", cursive;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 52px;
+  color: #faf4e9;
+}
+.feature-coffee-border {
+  border-top: 1px solid #debb63;
+  width: 60px;
+  margin-bottom: 3px;
+  height: 2px;
+}
+.container-price-1 {
+  color: #debb63;
+  font: 300 18px/1.33 "GothamNarrow-Book", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.feature-coffee-container-2 {
+  flex: 1 0 300px;
+  max-width: 300px;
+  margin: 0 12px 24px;
+  width: 100%;
+  text-align: left;
+}
+.feature-coffee-entry-2 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.feature-coffee-img-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+.feature-coffee-img-2 img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+.feature-coffee-text-2 {
+  background: #ee5ba1;
+  padding: 22px 20px;
+  flex-grow: 1;
+  position: relative;
+}
+.feature-coffee-title-2 {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: "My Soul", cursive;
+  letter-spacing: normal;
+  margin: 0;
+  color: #faf4e9;
+  text-transform: none;
+}
+.feature-coffee-entry-content-2 {
+  font: 400 30px/29px "Ms Madi", cursive;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 52px;
+  color: #faf4e9;
+}
+.feature-coffee-border-2 {
+  border-top: 1px solid #debb63;
+  width: 60px;
+  margin-bottom: 3px;
+  height: 2px;
+}
+.container-price-2 {
+  color: #debb63;
+  font: 300 18px/1.33 "GothamNarrow-Book", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.feature-coffee-container-3 {
+  flex: 1 0 300px;
+  max-width: 300px;
+  margin: 0 12px 24px;
+  width: 100%;
+  text-align: left;
+}
+.feature-coffee-entry-3 {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: left;
+}
+.feature-coffee-img-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 300px;
+}
+.feature-coffee-img-3 img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+.feature-coffee-text-3 {
+  background: #ec8bba;
+  padding: 22px 20px;
+  flex-grow: 1;
+  position: relative;
+}
+.feature-coffee-title-3 {
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "My Soul", cursive;
+  letter-spacing: normal;
+  margin: 0;
+  color: #faf4e9;
+  text-transform: none;
+}
+.feature-coffee-entry-content-3 {
+  font: 300 30px/30px "Ms Madi", cursive;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 52px;
+  color: #faf4e9;
+}
+.feature-coffee-border-3 {
+  border-top: 1px solid #debb63;
+  width: 60px;
+  margin-bottom: 3px;
+  height: 2px;
+}
+.container-price-3 {
+  color: #debb63;
+  font: 300 18px/1.33 "GothamNarrow-Book", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.feature-coffee-link-button {
+  text-decoration: none;
+  color: #debb63;
+  border: 3px solid #debb63;
+  text-transform: uppercase;
+  padding: 7px 34px;
+  display: inline-block;
+  font: 14px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.feature-coffee-link-button:hover {
+  background-color: #debb63;
+  color: white;
+  transition: 0.4s;
 }
