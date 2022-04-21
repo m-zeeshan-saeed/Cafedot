@@ -391,3 +391,38 @@ header .head:hover {
   color: white;
   transition: 0.4s;
 }
+.message-container {
+  background: url(/img/messaging-hero.webp) no-repeat center/cover;
+  height: auto;
+  padding: 55px 0 53px;
+}
+.message-wrapper {
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 940px;
+}
+.message-description {
+  font: 400 36px/48px "Ms Madi", cursive, sans-serif;
+  margin-bottom: 14px;
+  color: #faf4e9;
+  max-width: 310px;
+  margin: 0 0 19.44444px;
+}
+.message-link {
+  text-decoration: none;
+  color: #debb63;
+  border: 3px solid #debb63;
+  text-transform: uppercase;
+  padding: 7px 32px;
+  background: none;
+  display: inline-block;
+  font: 14px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.message-link:hover {
+  transition: 0.4s;
+  background-color: #debb63;
+  color: white;
+}
